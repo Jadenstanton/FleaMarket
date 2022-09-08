@@ -5,32 +5,16 @@ import "./styles.css";
 
 const rows = [
   {
-    title: "New Releases",
+    title: "Tech",
     stores: [
-      "starwars",
-      "birds",
-      "bloodshot",
-      "onward",
-      "underwater",
-      "astra",
-      "wild",
-      "invisible",
-      "westworld",
-      "ozark"
+      "apple",
+      "dell"
     ]
   },
   {
-    title: "Trending",
+    title: "Automotive",
     stores: [
-      "sonic",
-      "knives",
-      "little",
-      "1917",
-      "wick",
-      "hollywood",
-      "platform",
-      "parasite",
-      "ford"
+      "subaru"
     ]
   }
 ];
@@ -45,7 +29,7 @@ function Explore(rows = []) {
 }
 
 function Row({ title, stores }) {
-  const keyFn = (movie) => movie;
+  const keyFn = (store) => store;
   return html`
     <div class="ContentRow">
       <div class="ContentRow__title">${title}</div>
