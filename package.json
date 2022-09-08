@@ -1,0 +1,7 @@
+{
+  "name": "FleaMarket",
+  "version": "1.0.0",
+  "dependencies": {
+    "lit": "^2.3.1"
+  }
+}
